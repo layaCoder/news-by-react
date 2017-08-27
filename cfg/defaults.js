@@ -63,8 +63,8 @@ function getDefaultModules() {
 
 module.exports = {
   srcPath: srcPath,
-  //项目打包需要配置成  *** publicPath: 'assets/' ***
-  publicPath: '/assets/',
+  //项目打包需要配置成  *** publicPath: 'assets/'  直接运行'/assets/' ***
+  publicPath: 'assets/',
   port: dfltPort,
   getDefaultModules: getDefaultModules
 };
